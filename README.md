@@ -7,6 +7,6 @@
 #### require : 특정 조건이 참이 아닐 때 함수가 에러 메세지를 발생하고 함수의 실행을 멈추게 된다.
      ex) require(조건);
 #### Contract Inheritance : 자식의 계약이 부모의 계약안의 함수에 접근가능하다.
-         ex) contract 자식 in 부모 { 함수 }
+     ex) contract 자식 in 부모 { 함수 }
 #### import : 다수의 파일이 있고 어떤 파일을 다른 파일로 불러오고 싶을 때 사용한다.
      ex) import "불러올 파일";
