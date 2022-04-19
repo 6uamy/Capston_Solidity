@@ -10,3 +10,4 @@
      ex) contract 자식 in 부모 { 함수 }
 #### import : 다수의 파일이 있고 어떤 파일을 다른 파일로 불러오고 싶을 때 사용한다.
      ex) import "불러올 파일";
+#### modifier : 
