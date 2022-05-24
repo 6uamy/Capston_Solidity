@@ -11,3 +11,6 @@
 #### import : 다수의 파일이 있고 어떤 파일을 다른 파일로 불러오고 싶을 때 사용한다.
      ex) import "불러올 파일";
 #### now : 시간을 다룰 수 있는 단위계를 제공해준다. (1970년 1월 1일부터 지금까지의 초 단위 합)
+
+
+#### 0x4cC7277BdFDAdf963BCf1373a4C8d97DD1CB3a22 (0524 solidity contract address)
