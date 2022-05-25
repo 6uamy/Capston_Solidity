@@ -14,3 +14,5 @@
 
 
 #### 0x4cC7277BdFDAdf963BCf1373a4C8d97DD1CB3a22 (0524 solidity contract address)
+
+#### 0x352f6Cca53E9acc5c00aab162e50570DD61CC6A0 (0525 solidity contract address)
