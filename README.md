@@ -1,5 +1,13 @@
 # Study_Solidity
 
+#### Solidity : 계약 지향 프로그래밍 언어, 블록체인의 스마트 계약을 작성할 때 사용된다.
+
+#### EVM : Ethereum Virtual Machine, 솔리디티는 EVM 위에서 실해된다.
+
+#### pragma solidity : 솔리디티 언어 버전을 명시해주어야 한다. 
+
+#### contract 계약명 : 솔리디티 코드는 컨트랙트 안에서 실행되어야 한다. ( Java의 class선언과 유사하다.)
+
 #### msg.sender : 현재 함수를 호출한 사람 (or 스마트 컨트랙트)의 주소를 가리킨다. -> 전역변수
 
 #### mapping : 매핑은 기본적으로 키-값 (key-value) 저장소로, 데이터를 저장하고 검색하는 데 이용된다.
