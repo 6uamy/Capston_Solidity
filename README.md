@@ -22,6 +22,6 @@
 
 #### ERC-20 : 대체가능한 토큰이며, 자체발행 및 유저에게 민팅해주는 부분을 수행하는데 사용하였다.
 
-#### 0x4cC7277BdFDAdf963BCf1373a4C8d97DD1CB3a22 (0524 solidity contract address)
 
-#### 0x352f6Cca53E9acc5c00aab162e50570DD61CC6A0 (0525 solidity contract address)
+
+#### 0x7cC2a2C2a6f3287c426Dc0D813ac28dd9D947525 (0612 solidity contract address)
