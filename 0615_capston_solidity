@@ -3,12 +3,14 @@ pragma solidity ^0.8.0;
 
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 
+
 contract P2DToken is ERC20 {
 
     uint maxTopScores = 5;
     uint public amount = 10**18 ;
     uint public score;
     address payable public _addr = payable(0xC0c9093Df0fefd899f82aE6735C2e0730eD9D428);
+
 
     struct TopScore{
         address addr;
@@ -17,6 +19,8 @@ contract P2DToken is ERC20 {
     TopScore[] public topScores;
 
     mapping(address => uint256) public _userscore;
+    mapping(address => bool) public isWhitelist; // 화이트리스트 
+    
 
     constructor() ERC20("PlaytoDonate", "P2D") {}
 
@@ -24,7 +28,7 @@ contract P2DToken is ERC20 {
         function reward(uint _score) public {
         require(_score >= amount);
 
-        
+        isWhitelist[_addr] = true;
         score = _score / (10**18);
         _mint(msg.sender, _score);
         _userscore[msg.sender] += _score;
@@ -50,7 +54,7 @@ contract P2DToken is ERC20 {
     }
     // token transfer
     function send(uint256 _value) payable public {
-    require(_value >= amount);
-    ERC20.transfer(_addr, _value);
+        require(_value >= amount);
+        ERC20.transfer(_addr, _value);
     }
 }
